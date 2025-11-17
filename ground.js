@@ -4,7 +4,7 @@ import {
   setCustomProperty,
 } from "./updateCustomProperty.js"
 
-const SPEED = 0.3
+const SPEED = 0.08
 const groundElems = document.querySelectorAll("[data-ground]")
 
 export function setupGround() {
